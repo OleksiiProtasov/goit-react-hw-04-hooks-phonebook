@@ -10,7 +10,7 @@ export default function Filter({ value, onChangeFilter }) {
         className={style.input}
         type="text"
         value={value}
-        onChange={(e) => onChangeFilter(e.target.value)}
+        onChange={onChangeFilter}
       />
     </label>
   );
